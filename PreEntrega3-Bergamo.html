@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="PreEntrega3-Bergamo.css">
+    <title>Jazmin Puyen Arte</title>
+</head>
+
+<body>
+<nav>
+    <div id="navbar">
+        <img id="logo" src="https://cdn.discordapp.com/attachments/827381273941114900/1030976174488309921/Sin_titulo-1.png" alt="logo">
+        <h1 id="titulo">Jazmin.Puyen</h1>
+        <ul>
+            <li><a href="">Productos</a></li>
+            <li><a href="">Taller</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><input type="text" placeholder="Buscar"></li>
+        </ul>
+    </div>
+</nav>
+
+<div id="fondodiv">
+    <div id="cartasProductos" class="row">
+    </div>
+
+    <h4 class="textocarrito">Tu carrito:</h4>
+    
+<table id="tablacarrito" class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+        </tr>
+    </thead>
+    <tbody id="tabla">
+    </tbody>
+</table>
+<h5 id="total" class="textocarrito">Total: $</h5>
+    <div id="botonesoperacion">
+        <button id="comprar">Ir a comprar</button>
+        <button id="guardarcarrito">Guardar</button>
+        <button id="cancelar">Vaciar carrito</button>
+        <button id="recuperar">Recuperar carrito</button>
+    </div>
+</div>
+
+<script src="stock.js"></script>
+<script src="PreEntrega3-Bergamo.js"></script>
+</body>
+
+</html>
